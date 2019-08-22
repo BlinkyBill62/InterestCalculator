@@ -1,1 +1,3 @@
-# InterestCalculator
+Interest Calculator contains 4 projects InterestCalculator.Evaluate, InterestCalculator.Data, InterestCalculator.UnitTest and InterestCalculator.API. InterestCalculator.Data contains the model used to store the various interest rates. InterestCalculator.Evaluate calculates the interest for a specified balance. InterestCalculator.API contains the Get in the InterestController which take a balance and evaluate the interest using the InterestEvaluateProcessor in InterestCalculator.Evaluate. InterestCalculator.UnitTest contains the tests in  InterestCalculatorUnitTest class to check valid balance as well as invalid balance ande checks against the InterestEvaluateProcessor in InterestCalculator.Evaluate.
+
+The only assumption is that a negative balance is not possible.
